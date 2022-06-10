@@ -1,0 +1,8 @@
+[template]
+src = "starship.frost.tmpl"
+dest = "dist/starship.frost.toml"
+keys = [
+    "/frost/primary",
+    "/frost/secondary",
+    "/frost/text",
+]

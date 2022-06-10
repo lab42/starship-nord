@@ -1,0 +1,8 @@
+[template]
+src = "starship.polar-night.tmpl"
+dest = "dist/starship.polar-night.toml"
+keys = [
+    "/polar-night/primary",
+    "/polar-night/secondary",
+    "/polar-night/text",
+]

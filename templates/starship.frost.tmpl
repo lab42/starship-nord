@@ -1,0 +1,237 @@
+format = """
+[╭](fg:{{getv "/frost/secondary"}})\
+[](fg:{{getv "/frost/primary"}})\
+[ $all](fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}})\
+[](fg:{{getv "/frost/primary"}})\
+$fill\
+[](fg:{{getv "/frost/primary"}})\
+[ $time ](fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}})\
+[](fg:{{getv "/frost/primary"}})\
+$line_break\
+[╰](fg:{{getv "/frost/secondary"}})$character"""
+
+scan_timeout = 10
+add_newline = true
+
+[dart]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[ruby]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[openstack]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[vlang]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[red]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[aws]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[vagrant]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[gcloud]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[battery]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[perl]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[conda]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[nodejs]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[sudo]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[cmake]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[shell]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[azure]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[buf]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[git_commit]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[env_var]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[vcsh]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[ocaml]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[terraform]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[git_branch]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[erlang]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[line_break]
+disabled = false
+
+[fill]
+symbol = "─"
+style = "bold fg:{{getv "/frost/secondary"}}"
+
+[cobol]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[rlang]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[java]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[time]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+format = "$time"
+disabled = false
+
+[cmd_duration]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+min_time = 1
+disabled = false
+
+[lua]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[package]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[crystal]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[shlvl]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[singularity]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[dotnet]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[zig]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[scala]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[rust]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[status]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[purescript]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[helm]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[hostname]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[directory]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+format = "[$path$read_only]($style) "
+
+[php]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[deno]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[julia]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[nix_shell]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[elm]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[haskell]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[swift]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[hg_branch]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[kubernetes]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[localip]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[kotlin]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[golang]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[docker_context]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[git_status]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[character]
+success_symbol = "[](#A3BE8C)"
+error_symbol = "[](#BF616A)"
+
+[python]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[username]
+style_user = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[memory_usage]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[jobs]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[git_state]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[container]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[spack]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[c]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[nim]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[elixir]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[git_metrics]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"
+
+[pulumi]
+style = "fg:{{getv "/frost/text"}} bg:{{getv "/frost/primary"}}"

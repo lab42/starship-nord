@@ -1,0 +1,237 @@
+format = """
+[╭](fg:#4C566A)\
+[](fg:#434C5E)\
+[ $all](fg:#D8DEE9 bg:#434C5E)\
+[](fg:#434C5E)\
+$fill\
+[](fg:#434C5E)\
+[ $time ](fg:#D8DEE9 bg:#434C5E)\
+[](fg:#434C5E)\
+$line_break\
+[╰](fg:#4C566A)$character"""
+
+scan_timeout = 10
+add_newline = true
+
+[dart]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[ruby]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[openstack]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[vlang]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[red]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[aws]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[vagrant]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[gcloud]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[battery]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[perl]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[conda]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[nodejs]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[sudo]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[cmake]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[shell]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[azure]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[buf]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[git_commit]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[env_var]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[vcsh]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[ocaml]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[terraform]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[git_branch]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[erlang]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[line_break]
+disabled = false
+
+[fill]
+symbol = "─"
+style = "bold fg:#4C566A"
+
+[cobol]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[rlang]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[java]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[time]
+style = "fg:#D8DEE9 bg:#434C5E"
+format = "$time"
+disabled = false
+
+[cmd_duration]
+style = "fg:#D8DEE9 bg:#434C5E"
+min_time = 1
+disabled = false
+
+[lua]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[package]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[crystal]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[shlvl]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[singularity]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[dotnet]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[zig]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[scala]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[rust]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[status]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[purescript]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[helm]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[hostname]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[directory]
+style = "fg:#D8DEE9 bg:#434C5E"
+format = "[$path$read_only]($style) "
+
+[php]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[deno]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[julia]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[nix_shell]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[elm]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[haskell]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[swift]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[hg_branch]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[kubernetes]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[localip]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[kotlin]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[golang]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[docker_context]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[git_status]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[character]
+success_symbol = "[](#A3BE8C)"
+error_symbol = "[](#BF616A)"
+
+[python]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[username]
+style_user = "fg:#D8DEE9 bg:#434C5E"
+
+[memory_usage]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[jobs]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[git_state]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[container]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[spack]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[c]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[nim]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[elixir]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[git_metrics]
+style = "fg:#D8DEE9 bg:#434C5E"
+
+[pulumi]
+style = "fg:#D8DEE9 bg:#434C5E"

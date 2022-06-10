@@ -1,0 +1,8 @@
+[template]
+src = "starship.tmpl"
+dest = "dist/starship.aurora.toml"
+keys = [
+    "/primary",
+    "/secondary",
+    "/text",
+]

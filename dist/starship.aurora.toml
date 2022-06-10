@@ -1,0 +1,246 @@
+format = """
+[┌](fg:#BF616A)\
+[](fg:#D08770)\
+[ $all](fg:#ECEFF4 bg:#D08770)\
+[](fg:#D08770)\
+$fill\
+[](fg:#D08770)\
+[ $time ](fg:#ECEFF4 bg:#D08770)\
+[](fg:#D08770)\
+$line_break\
+[└](fg:#BF616A)$character"""
+
+scan_timeout = 10
+add_newline = true
+
+[dart]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[ruby]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[openstack]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[vlang]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[red]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[aws]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[vagrant]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[gcloud]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[battery]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[perl]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[conda]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[nodejs]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[sudo]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[cmake]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[shell]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[azure]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[buf]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[git_commit]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[env_var]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[vcsh]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[ocaml]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[terraform]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[git_branch]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[erlang]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[line_break]
+disabled = false
+
+[fill]
+symbol = "─"
+style = "fg:#BF616A"
+
+[cobol]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[rlang]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[java]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[time]
+style = "fg:#ECEFF4 bg:#D08770"
+format = "$time"
+disabled = false
+
+[cmd_duration]
+style = "fg:#ECEFF4 bg:#D08770"
+min_time = 1
+disabled = false
+
+[lua]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[package]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[crystal]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[shlvl]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[singularity]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[dotnet]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[zig]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[scala]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[rust]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[status]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[purescript]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[helm]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[hostname]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[directory]
+style = "fg:#ECEFF4 bg:#D08770"
+format = "[$path$read_only]($style) "
+
+[directory.substitutions]
+"Documents" = "Documents  "
+"Downloads" = "Downloads  "
+"Movies" = "Movies  "
+"Music" = "Music � "
+"Pictures" = "Pictures  "
+"Projects" = "Projects  "
+"Public" = "Public  "
+
+[php]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[deno]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[julia]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[nix_shell]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[elm]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[haskell]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[swift]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[hg_branch]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[kubernetes]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[localip]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[kotlin]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[golang]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[docker_context]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[git_status]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[character]
+success_symbol = "[](#BF616A)"
+error_symbol = "[](#BF616A)"
+
+[python]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[username]
+style_user = "fg:#ECEFF4 bg:#D08770"
+
+[memory_usage]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[jobs]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[git_state]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[container]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[spack]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[c]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[nim]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[elixir]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[git_metrics]
+style = "fg:#ECEFF4 bg:#D08770"
+
+[pulumi]
+style = "fg:#ECEFF4 bg:#D08770"

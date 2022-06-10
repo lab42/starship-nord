@@ -1,0 +1,14 @@
+polar-night:
+  primary: "#434C5E"
+  secondary: "#4C566A"
+  text: "#D8DEE9"
+
+snow-storm:
+  primary: "#D8DEE9"
+  secondary: "#ECEFF4"
+  text: "#434C5E"
+
+frost:
+  primary: "#5E81AC"
+  secondary: "#81A1C1"
+  text: "#D8DEE9"

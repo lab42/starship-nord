@@ -1,0 +1,246 @@
+format = """
+[┌](fg:{{getv "/secondary"}})\
+[](fg:{{getv "/primary"}})\
+[ $all](fg:{{getv "/text"}} bg:{{getv "/primary"}})\
+[](fg:{{getv "/primary"}})\
+$fill\
+[](fg:{{getv "/primary"}})\
+[ $time ](fg:{{getv "/text"}} bg:{{getv "/primary"}})\
+[](fg:{{getv "/primary"}})\
+$line_break\
+[└](fg:{{getv "/secondary"}})$character"""
+
+scan_timeout = 10
+add_newline = true
+
+[dart]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[ruby]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[openstack]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[vlang]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[red]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[aws]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[vagrant]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[gcloud]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[battery]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[perl]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[conda]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[nodejs]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[sudo]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[cmake]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[shell]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[azure]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[buf]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[git_commit]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[env_var]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[vcsh]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[ocaml]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[terraform]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[git_branch]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[erlang]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[line_break]
+disabled = false
+
+[fill]
+symbol = "─"
+style = "fg:{{getv "/secondary"}}"
+
+[cobol]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[rlang]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[java]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[time]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+format = "$time"
+disabled = false
+
+[cmd_duration]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+min_time = 1
+disabled = false
+
+[lua]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[package]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[crystal]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[shlvl]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[singularity]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[dotnet]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[zig]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[scala]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[rust]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[status]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[purescript]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[helm]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[hostname]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[directory]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+format = "[$path$read_only]($style) "
+
+[directory.substitutions]
+"Documents" = "Documents  "
+"Downloads" = "Downloads  "
+"Movies" = "Movies  "
+"Music" = "Music � "
+"Pictures" = "Pictures  "
+"Projects" = "Projects  "
+"Public" = "Public  "
+
+[php]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[deno]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[julia]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[nix_shell]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[elm]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[haskell]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[swift]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[hg_branch]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[kubernetes]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[localip]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[kotlin]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[golang]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[docker_context]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[git_status]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[character]
+success_symbol = "[]({{getv "/secondary"}})"
+error_symbol = "[](#BF616A)"
+
+[python]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[username]
+style_user = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[memory_usage]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[jobs]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[git_state]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[container]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[spack]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[c]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[nim]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[elixir]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[git_metrics]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"
+
+[pulumi]
+style = "fg:{{getv "/text"}} bg:{{getv "/primary"}}"

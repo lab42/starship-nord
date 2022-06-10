@@ -1,0 +1,8 @@
+[template]
+src = "starship.snow-storm.tmpl"
+dest = "dist/starship.snow-storm.toml"
+keys = [
+    "/snow-storm/primary",
+    "/snow-storm/secondary",
+    "/snow-storm/text",
+]
